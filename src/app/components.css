@@ -68,7 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .projectBox {
@@ -94,10 +94,10 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
-  background-color: #f4f4f5;
+  background-color: #f0f0f0;
 }
 
 .statusText {
@@ -116,6 +116,13 @@ body {
   width: 0.5rem;
   height: 0.5rem;
   background-color: #ef4444;
+  border-radius: 100%;
+}
+
+.ndaCircle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #4444ef;
   border-radius: 100%;
 }
 
