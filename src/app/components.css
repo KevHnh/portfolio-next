@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: radial-gradient(circle, rgb(237, 237, 237) 1px, #fafafa 0);
-  background-size: 20px 20px;
 }
 
 * {
@@ -22,108 +20,61 @@ body {
 .BodyContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   padding: 2rem;
-  margin-left: 20rem;
   gap: 5rem;
   width: 100%;
-}
-
-.statsContainer {
-  display: flex;
-  width: 100%;
-  gap: 3rem;
-}
-
-.statsItem {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .NavContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
   padding: 2rem;
   gap: 1rem;
-  width: 20rem;
-  position: fixed;
+  width: 100%;
+  max-width: 30rem;
 }
 
-.NavLeft {
+.NavSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.row {
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.end {
+  margin-bottom: 2rem;
+}
+
+.sticky {
+  position: sticky; 
+  top: 2rem;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: .25rem 0rem;
+  cursor: pointer;
+}
+
+.ImageContainer {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: .5rem;
 }
 
-.NavRight {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.projectsContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  padding-bottom: 3rem;
-}
-
-.projectBox {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.projectInfo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.projectsub {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.status {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  background-color: #f0f0f0;
-}
-
-.statusText {
-  font-size: 0.75rem;
-  color: #868686;
-}
-
-.activeCircle {
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #22c55e;
-  border-radius: 100%;
-}
-
-.inactiveCircle {
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #ef4444;
-  border-radius: 100%;
-}
-
-.ndaCircle {
-  width: 0.5rem;
-  height: 0.5rem;
-  background-color: #4444ef;
-  border-radius: 100%;
+.image {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1300px) {
@@ -134,30 +85,7 @@ body {
   }
 
   .NavContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: unset;
-    padding: 2rem;
-    gap: 1rem;
-    width: 20rem;
-    position: unset;
-  }
-
-  .BodyContainer {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    padding: 2rem;
-    margin-left: 0rem;
-    gap: 5rem;
     width: 100%;
-  }
-
-  .statsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 3rem;
+    max-width: none;
   }
 }

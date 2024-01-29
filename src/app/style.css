@@ -1,29 +1,28 @@
-.title {
-    font-size: 2rem;
-    font-weight: 600;
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #27272a;
+  font-size: 16px;
 }
 
 .header {
-    font-size: 1.3rem;
-    font-weight: 500; 
-}
-
-.bold {
-    text-decoration: none;
-    color: black;
-    font-size: 1.1rem;
-    font-weight: 450;
+  font-weight: 600;
 }
 
 .sub {
-    font-size: 1rem;
-    font-weight: 400;
+  font-weight: 0;
 }
 
 .link {
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: .25rem;
+  text-decoration: none;
+  font-weight: 0;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  width: 6rem;
 }
