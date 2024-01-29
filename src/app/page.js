@@ -20,9 +20,9 @@ export default function Home() {
           </div>
           <div className="NavSection col">
             <div className="sub">
-              Whether it's crafting sleek user interfaces or developing elegant
-              solutions, I thrive on the challenge of making complexity appear
-              effortless.
+              Whether it&apos;s crafting sleek user interfaces or developing
+              elegant solutions, I thrive on the challenge of making complexity
+              appear effortless.
             </div>
           </div>
           <div className="NavSection row end sticky">
@@ -79,6 +79,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
             <Image
               src={"/Shrek.png"}
@@ -86,6 +87,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
             <Image
               src={"/Shrek.png"}
@@ -93,6 +95,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
           </div>
           <div className="ImageContainer">
@@ -102,6 +105,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
             <Image
               src={"/Shrek.png"}
@@ -109,6 +113,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
             <Image
               src={"/Shrek.png"}
@@ -116,6 +121,7 @@ export default function Home() {
               height={0}
               sizes={"100vw"}
               className="image"
+              alt="shrek"
             ></Image>
           </div>
         </div>
