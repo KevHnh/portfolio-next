@@ -20,7 +20,6 @@ body {
 .BodyContainer {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
   gap: 5rem;
   width: 100%;
 }
@@ -59,6 +58,10 @@ body {
   top: 2rem;
 }
 
+.sticky2 {
+  top: 6.5rem;
+}
+
 .projectContainer {
   display: flex;
   justify-content: space-between;
@@ -87,5 +90,13 @@ body {
   .NavContainer {
     width: 100%;
     max-width: none;
+  }
+
+  .BodyContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 5rem;
+    width: 100%;
   }
 }

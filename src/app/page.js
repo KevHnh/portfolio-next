@@ -25,7 +25,7 @@ export default function Home() {
               effortless.
             </div>
           </div>
-          <div className="NavSection row end">
+          <div className="NavSection row end sticky">
             <a
               className="link"
               href="https://www.linkedin.com/in/kevin-hinh/"
@@ -55,7 +55,7 @@ export default function Home() {
               Twitter
             </a>
           </div>
-          <div className="NavSection col sticky">
+          <div className="NavSection col sticky sticky2">
             <div className="header">Projects</div>
             <div className="projectContainer">
               <div className="projectText">Aplican</div>
