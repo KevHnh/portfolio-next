@@ -149,7 +149,7 @@ export default function Home() {
               alt="shrek"
             ></Image>
             <Image
-              src={"/P2/p2 (1).jpg"}
+              src={"/P2/p2 (3).jpg"}
               width={0}
               height={0}
               sizes="100vw"
@@ -160,7 +160,7 @@ export default function Home() {
 
           <div className="ImageContainer" ref={ref3}>
             <Image
-              src={"/Shrek.png"}
+              src={"/P3/p3 (1).jpg"}
               width={0}
               height={0}
               sizes="100vw"
