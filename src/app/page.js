@@ -73,7 +73,7 @@ export default function Home() {
             </a>
           </div>
           <div className="NavSection col sticky sticky2">
-            <div className="header p-header">Projects</div>
+            <div className="header p-header">Work</div>
             <div
               className={
                 inView1 ? "projectContainer visible" : "projectContainer"
@@ -168,15 +168,7 @@ export default function Home() {
               alt="shrek"
             ></Image>
             <Image
-              src={"/Shrek.png"}
-              width={0}
-              height={0}
-              sizes="100vw"
-              className="image"
-              alt="shrek"
-            ></Image>
-            <Image
-              src={"/Shrek.png"}
+              src={"/P3/p3 (2).jpg"}
               width={0}
               height={0}
               sizes="100vw"
