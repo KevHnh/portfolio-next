@@ -1,0 +1,50 @@
+:root {
+  --text: #27272a;
+  --sub: #81a9ff;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../../public/fonts/Lora.ttf");
+}
+
+body {
+  font-family: "Lora";
+  color: var(--text);
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+ul {
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+a {
+  color: var(--sub);
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: .5rem;
+}
