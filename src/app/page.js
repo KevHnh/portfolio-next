@@ -27,7 +27,7 @@ export default function Home() {
           <h2>Few things about me:</h2>
           <ul>
             <li>
-              I'm a Software Engineer, UI/UX Designer, and occasionally a
+              I&apos;m a Software Engineer, UI/UX Designer, and occasionally a
               Software Consultant
             </li>
             <li>
@@ -44,7 +44,7 @@ export default function Home() {
               snowing, or freezing cold
             </li>
           </ul>
-          <h2>What I'm interested in:</h2>
+          <h2>What I&apos;m interested in:</h2>
           <ul>
             <li>Wearing crocs</li>
             <li>
