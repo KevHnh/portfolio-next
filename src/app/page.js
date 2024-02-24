@@ -9,7 +9,9 @@ export default function Home() {
     <div className="MainContainer">
       <div className="MainWrapper">
         <div className="BodyContainer">
-          <h1>Kevin Hinh</h1>
+          <Link href={"/"} className="homeBtn">
+            <h1>Kevin Hinh</h1>
+          </Link>
           <div className="socialContainer">
             <a href="mailto:kevinhinh19@gmail.com" target="_blank">
               Email
