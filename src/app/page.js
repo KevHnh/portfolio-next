@@ -54,10 +54,7 @@ export default function Home() {
               <Link href={"/books"}>my collection</Link>
             </li>
             <li>Lifting weights</li>
-            <li>
-              Combining foods that should not be combined (Chipotle guacamole
-              with sweet and spicy Doritos)
-            </li>
+            <li>Getting my money&apos;s worth at all you can eat buffets (specifically at sushi & Korean BBQ spots)</li>
           </ul>
           <h2>Check out some of my work:</h2>
           <Image
