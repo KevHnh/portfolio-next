@@ -54,7 +54,35 @@ export default function Home() {
               <Link href={"/books"}>my collection</Link>
             </li>
             <li>Lifting weights</li>
-            <li>Getting my money&apos;s worth at all you can eat buffets (specifically at sushi & Korean BBQ spots)</li>
+            <li>
+              Getting my money&apos;s worth at all you can eat buffets
+              (specifically at sushi & Korean BBQ spots)
+            </li>
+          </ul>
+          <h2>My startup attempts:</h2>
+          <ul>
+            <li>
+              Ezsea - Web3 Powered Education Platform (Never saw the light of
+              day. It was a capstone project for college and abandoned once I
+              got my A+)
+            </li>
+            <li>
+              MockAI - AI Powered Technical Prep Platform (Very expensive to run
+              so I abandoned it but was very cool)
+            </li>
+            <li>
+              <a href="https://www.aplican.co" target="_blank">
+                Aplican
+              </a>{" "}
+              - AI Powered Job Hunting Companion (Shutting down soon. Did not do
+              product validation. Went nowhere.)
+            </li>
+            <li>
+              <a href="https://www.affpaca.com" target="_blank">
+                Affpaca
+              </a>{" "}
+              - Where Founders empower Marketers (Recently started Feb 2024)
+            </li>
           </ul>
           <h2>Check out some of my work:</h2>
           <Image
