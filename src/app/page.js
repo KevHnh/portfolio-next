@@ -70,17 +70,11 @@ export default function Home() {
               MockAI - AI Powered Technical Prep Platform (Very expensive to run
               so I abandoned it but was very cool)
             </li>
-            <li>
-              <a href="https://www.aplican.co" target="_blank">
-                Aplican
-              </a>{" "}
-              - AI Powered Job Hunting Companion (Shutting down soon. Did not do
-              product validation. Went nowhere.)
-            </li>
+            <li>Aplican - AI Powered Job Hunting Companion (Sold algorithm)</li>
             <li>
               <a href="https://www.affpaca.com" target="_blank">
                 Affpaca
-              </a>{" "}
+              </a>
               - Where Founders empower Marketers (Recently started Feb 2024)
             </li>
           </ul>
