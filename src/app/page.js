@@ -37,10 +37,10 @@ export default function Home() {
               Computer Science
             </li>
             <li>
-              I currently freelance for 6 clients in different industries from
-              ed tech to web3, and when I am free, I volunteer for a non-profit
-              open source community that aims to build sustainable cities
+              I currently run a digital agency that helps businesses and brands
+              turn their ambitious goals into reality
             </li>
+            <li>I attempt to build apps to solve my own problems</li>
             <li>
               I love crocs — I wear them year round whether it is raining,
               snowing, or freezing cold
@@ -67,6 +67,13 @@ export default function Home() {
               got my A+)
             </li>
             <li>
+              <a href="https://boga.studio" target="_blank">
+                Boga Studio
+              </a>
+              {" "}- A web agency that specialize in creating premier designs and
+              innovative software solutions
+            </li>
+            <li>
               MockAI - AI Powered Technical Prep Platform (Very expensive to run
               so I abandoned it but was very cool)
             </li>
@@ -75,7 +82,7 @@ export default function Home() {
               <a href="https://www.affpaca.com" target="_blank">
                 Affpaca
               </a>
-              - Where Founders empower Marketers (Recently started Feb 2024)
+              {" "}- Where Founders empower Marketers (Recently started Feb 2024)
             </li>
           </ul>
           <h2>Check out some of my work:</h2>
