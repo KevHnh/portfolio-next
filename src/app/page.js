@@ -41,23 +41,11 @@ export default function Home() {
               turn their ambitious goals into reality
             </li>
             <li>I attempt to build apps to solve my own problems</li>
-            <li>
-              I love crocs — I wear them year round whether it is raining,
-              snowing, or freezing cold
-            </li>
           </ul>
           <h2>What I&apos;m interested in:</h2>
           <ul>
             <li>Wearing crocs</li>
-            <li>
-              Reading books — check out{" "}
-              <Link href={"/books"}>my collection</Link>
-            </li>
             <li>Lifting weights</li>
-            <li>
-              Getting my money&apos;s worth at all you can eat buffets
-              (specifically at sushi & Korean BBQ spots)
-            </li>
           </ul>
           <h2>My startup attempts:</h2>
           <ul>
